@@ -6,7 +6,6 @@ class Department:
 
     # Dictionary of objects saved to the database.
     all = {}
-    
 
     def __init__(self, name, location, id=None):
         self.id = id
